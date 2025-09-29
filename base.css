@@ -1,3 +1,6 @@
+/* ORIGINAL AT Github.com/DiscordStyles/DarkMatter
+
+
 /* 
  * Yes, this codebase is near unreadable. Why?
  * I designed this mainly as a test to see how viable avoidance of straight out class selectors would be.
@@ -20,8 +23,6 @@ button {
 	--font-display: var(--font-primary) !important;
 	/* Dark Matter Variables */
 	--avatar-size: 32px;
-	--background-image: url('https://i.imgur.com/7SbtKvw.png');
-	--home-image: url('https://i.imgur.com/233d55Y.gif');
 	--background-solid: #161921;
 	--background-solid-dark: #101218;
 	--background-solid-darker: #0c0e12;
@@ -194,7 +195,6 @@ span[class^="expandedFolderBackground-"] {
 }
 
 div[data-list-item-id="guildsnav___home"] {
-	background: var(--home-image) top center/110% no-repeat;
 }
 
 div[class^="unreadMentionsIndicatorBottom-"] {
@@ -285,7 +285,6 @@ nav[aria-label]>div>header {
 /* Outer containers */
 
 body {
-	background: var(--background-image) center/cover no-repeat;
 }
 
 #app-mount {
